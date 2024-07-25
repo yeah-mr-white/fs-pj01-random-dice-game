@@ -18,9 +18,9 @@ function rollDice() {
 
     // Game logic
     if (randomNum1 > randomNum2) {
-        document.querySelector('h1').innerHTML = 'Player 1 won the game!';
+        document.querySelector('h1').innerHTML = 'Player 1 win the game!';
     } else if (randomNum1 < randomNum2) {
-        document.querySelector('h1').innerHTML = 'Player 2 won the game!';
+        document.querySelector('h1').innerHTML = 'Player 2 win the game!';
     } else {
         document.querySelector('h1').innerHTML = 'Draw!';
     }
